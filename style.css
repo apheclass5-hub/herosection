@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 60px;
+    padding: 0 20px 0 20px;
+    box-shadow: 20px 0 20px 0 gray;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn1 {
+    width: 100px;
+    height: 35px;
+    background-color: white;
+
+}
+
+.btn2 {
+    width: 100px;
+    height: 35px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 20px 20px 20px 0 rgba(232, 230, 230, 0.852);
+
+}
+
+.hero-section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 2.5rem;
+    height: 70vh;
+    gap: 10px;
+    background-color: rgba(232, 230, 230, 0.852);
+    
+
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+.span {
+    display: flex;
+    color: blue;
+    justify-content: center;
+}
+
+.btn3 {
+    background-color: blue;
+    color: white;
+    width: 100px;
+    height: 35px;
+    border: none;
+    box-shadow: 20px 20px 20px 0 rgba(137, 134, 134, 0.852);
+}
+
+.btn4 {
+    width: 100px;
+    height: 35px;
+    background-color: white;
+    color: blue;
+    border: none;
+}
